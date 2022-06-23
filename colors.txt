@@ -1,0 +1,15 @@
+#000000 - header black
+#36383F - buttons
+
+#3F434D - body grey
+#0B0B0D - body box shadow
+
+#B3B3B3 - grey text
+#FFFFFF - white text
+#78DAFD - code projects text
+#F4E180 - explore text
+#4BCE79 - accent color green
+
+#191A1D - empty bottom space
+#36383F - footer boxes
+#676767 - footer outlines
