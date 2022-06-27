@@ -63,6 +63,10 @@ body {
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.left-side-bar > .btn > .header-btn button {
+    padding: 15px;
 }
 
 .icon {
