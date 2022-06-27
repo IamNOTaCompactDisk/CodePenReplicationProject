@@ -6,34 +6,70 @@ body {
     background-color: #3F434D;
     box-shadow: inset -200px -102px 300px 150px rgba(11,11,13,1);
 }
+
+
         /* Header */
+
 .header-wrap {
     background-color: black;
     display:flex;
     align-items: center;
     padding: 12px 60px;
-    border-top: black 16px solid;
 }
+
+                /* Right Side */
+
+.search-bar {
+    color: #B3B3B3;
+    padding-left: 20px;
+}
+
+.search-bar > select {
+    color: #B3B3B3;
+    background-color: black;
+    border: black 5px solid;
+}
+
 .right-side-bar > .explore {
     color: #F4E180;
 }
+
 .right-side-bar {
-    padding: 3px 3em;
+    padding: 3px 10px 3px 100px;
     width: 400px;
     }
+
 .right-side-bar > .second-row {
     display: flex;
     justify-content: space-between;
     font-weight:bolder;
 }
+
+                /* Left Side */
+
 .left-side-bar {
+    padding-left: 500px;
     width: 300px;
     display: flex;
     justify-content: space-between;
 }
 
+.drop-down {
+    background-color: #3F434D;
+    border: #3F434D 5px solid;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.drop-down > select {
+    color: #4BCE79;
+    background-color: #3F434D;
+    border: #3F434D 5px solid;
+}
 
-/* Footer */
+        /* Footer */
+
 .footer-wrap {
     background-color: #36383F;
     display: flex;
@@ -41,15 +77,16 @@ body {
     height: 75px;
     
 }
+
 .footer-wrap > .section {
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 10px;
     border-top: #B3B3B3 solid 1px;
     border-right: #B3B3B3 solid 2px;
     border-bottom: #B3B3B3 solid 1px;
-    width: 400px;
+    width: 464px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .footer-wrap > .section > .text {
@@ -59,11 +96,12 @@ body {
 
 .footer-wrap > .section > .text > .giant-bolded-text {
     font-size: 1.5em;
-    font-weight:900;
-    letter-spacing: -1px;
+    font-weight: 900;
+    letter-spacing: -2px;
     text-transform: uppercase;
     padding-left: 10px;
 }
+
 .empty-bottom-space {
     color: #191A1D;
     height: 100px;
