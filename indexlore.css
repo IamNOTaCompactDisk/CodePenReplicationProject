@@ -54,9 +54,25 @@ body {
     justify-content: space-between;
 }
 
+.left-side-bar > .btn > button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #36383F;
+    border: #36383F 5px solid;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color:#36383F;
+    width: 2em;
+}
+
 .drop-down {
-    background-color: #3F434D;
-    border: #3F434D 5px solid;
+    background-color: #36383F;
+    border: #36383F 5px solid;
     border-radius: 5px;
     height: 50px;
     display: flex;
@@ -64,8 +80,8 @@ body {
 }
 .drop-down > select {
     color: #4BCE79;
-    background-color: #3F434D;
-    border: #3F434D 5px solid;
+    background-color: #36383F;
+    border: #36383F 5px solid;
 }
 
         /* Footer */
