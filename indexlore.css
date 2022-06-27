@@ -38,7 +38,7 @@ body {
     background-color: #36383F;
     display: flex;
     width: 10000px;
-    text-align: center;
+    height: 75px;
     
 }
 .footer-wrap > .section {
@@ -47,12 +47,17 @@ body {
     border-top: #B3B3B3 solid 1px;
     border-right: #B3B3B3 solid 2px;
     border-bottom: #B3B3B3 solid 1px;
-    width: 468px;
+    width: 400px;
     display: flex;
     align-items: baseline;
-    
 }
-.footer-wrap > .section > .giant-bolded-text {
+
+.footer-wrap > .section > .text {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-wrap > .section > .text > .giant-bolded-text {
     font-size: 1.5em;
     font-weight:900;
     letter-spacing: -1px;
@@ -61,5 +66,5 @@ body {
 }
 .empty-bottom-space {
     color: #191A1D;
-    height: 200px;
+    height: 100px;
 }
