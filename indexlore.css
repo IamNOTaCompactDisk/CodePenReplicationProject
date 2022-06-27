@@ -1,4 +1,6 @@
 body {
+    width: 100%;
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
     color:white;
     background-color: #3F434D;
@@ -9,7 +11,7 @@ body {
     background-color: black;
     display:flex;
     align-items: center;
-    padding: 1px 60px;
+    padding: 12px 60px;
     border-top: black 16px solid;
 }
 .right-side-bar > .explore {
@@ -28,4 +30,10 @@ body {
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* Footer */
+.footer-wrap {
+    background-color: #36383F;
 }
