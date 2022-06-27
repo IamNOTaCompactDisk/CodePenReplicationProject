@@ -2,23 +2,30 @@ body {
     font-family: 'Open Sans', sans-serif;
     color:white;
     background-color: #3F434D;
-    box-shadow: inset -75px -69px 92px -50px rgba(11,11,13,1);
+    box-shadow: inset -200px -102px 300px 150px rgba(11,11,13,1);
 }
+        /* Header */
 .header-wrap {
-    width: 100%;
     background-color: black;
     display:flex;
     align-items: center;
+    padding: 1px 60px;
+    border-top: black 16px solid;
 }
 .right-side-bar > .explore {
     color: #F4E180;
 }
 .right-side-bar {
-    padding: 0px 3em;
+    padding: 3px 3em;
     width: 400px;
     }
 .right-side-bar > .second-row {
     display: flex;
     justify-content: space-between;
     font-weight:bolder;
+}
+.left-side-bar {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
