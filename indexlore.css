@@ -36,4 +36,30 @@ body {
 /* Footer */
 .footer-wrap {
     background-color: #36383F;
+    display: flex;
+    width: 10000px;
+    text-align: center;
+    
+}
+.footer-wrap > .section {
+    font-size: 25px;
+    padding-left: 10px;
+    border-top: #B3B3B3 solid 1px;
+    border-right: #B3B3B3 solid 2px;
+    border-bottom: #B3B3B3 solid 1px;
+    width: 468px;
+    display: flex;
+    align-items: baseline;
+    
+}
+.footer-wrap > .section > .giant-bolded-text {
+    font-size: 1.5em;
+    font-weight:900;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.empty-bottom-space {
+    color: #191A1D;
+    height: 200px;
 }
