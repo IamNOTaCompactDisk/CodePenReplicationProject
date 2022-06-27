@@ -5,10 +5,20 @@ body {
     box-shadow: inset -75px -69px 92px -50px rgba(11,11,13,1);
 }
 .header-wrap {
+    width: 100%;
     background-color: black;
     display:flex;
     align-items: center;
 }
-.header-wrap > img {
-    width: 10px;
+.right-side-bar > .explore {
+    color: #F4E180;
+}
+.right-side-bar {
+    padding: 0px 3em;
+    width: 400px;
+    }
+.right-side-bar > .second-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight:bolder;
 }
