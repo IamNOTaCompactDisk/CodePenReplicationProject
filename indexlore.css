@@ -88,6 +88,19 @@ body {
     border: #36383F 5px solid;
 }
 
+
+        /* body */
+.middle-wrap {
+   display: flex;
+   justify-content: space-between;
+}
+.column-A {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
         /* Footer */
 
 .footer-wrap {
