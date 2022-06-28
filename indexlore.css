@@ -110,18 +110,20 @@ body {
 
 .column-A {
     color: #B3B3B3;
-    width: 1000px;
+    width: 995px;
     padding: 30px;
+    letter-spacing: 2px;
 }
 
 .column-A > .heading {
     font-size: 25px;
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .column-A > .additional-info {
-    font-size: 20px;
+    font-size: 24.1px;
+    width: 900px;
 }
 
 .column-A b {
@@ -136,8 +138,17 @@ body {
     color: black;
     border: #4BCE79 5px solid;
     border-radius: 2px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 900;
+}
+
+.middle-wrap > .column-A > .btn {
+    display: flex;
+    align-items: center;
+}
+
+.middle-wrap > .column-A > .btn > .spacer {
+    width: 30px;
 }
 
 .learn-more {
@@ -146,7 +157,7 @@ body {
     color: white;
     border: black 5px solid;
     border-radius: 2px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 900;
 }
 
