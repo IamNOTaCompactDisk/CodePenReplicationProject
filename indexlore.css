@@ -36,7 +36,6 @@ body {
 }
 
 .right-side-bar {
-    padding: 3px 10px 3px 100px;
     width: 500px;
     }
 
@@ -50,7 +49,6 @@ body {
                 /* Left Side */
 
 .left-side-bar {
-    padding-left: 400px;
     display: flex;
     justify-content: space-between;
 }
