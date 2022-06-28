@@ -177,7 +177,6 @@ body {
     float: left;
     height: 800px;
     width: 1000px;
-    padding-bottom: 0px;
 }
 
         /* Footer */
@@ -217,5 +216,21 @@ body {
 
 .empty-bottom-space {
     background-color: #191A1D;
-    height: 300px;
+    height: 2000px;
 }
+
+
+            /* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4BCE79;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    opacity: 1;
+    border-radius: 10px;
+  } 
