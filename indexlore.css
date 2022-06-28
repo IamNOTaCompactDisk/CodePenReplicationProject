@@ -17,6 +17,9 @@ body {
     justify-content: space-between;
     padding: 12px 60px;
 }
+.spacer-h {
+    width: 300px;
+}
 
                 /* Right Side */
 
@@ -51,10 +54,11 @@ body {
 .left-side-bar {
     display: flex;
     justify-content: space-between;
+    width: 500px;
 }
 
 .left-side-bar > .btn > button {
-    font-size: 1.5rem;
+    font-size: 2em;
     color: white;
     background-color: #36383F;
     border: #36383F 1px solid;
@@ -89,12 +93,17 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    width: 100px;
+    width: 150px;
+    height: 81px;
+    font-size: 2em;
 }
 .drop-down > select {
     color: #4BCE79;
     background-color: #36383F;
     border: #36383F 5px solid;
+    font-size: 2em;
+    width: 150px;
+    height: 81px;
 }
 
 
