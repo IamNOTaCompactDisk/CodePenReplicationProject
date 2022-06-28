@@ -106,6 +106,7 @@ body {
    display: flex;
    justify-content: space-between;
    font-weight: 100;
+
 }
 
 .column-A {
@@ -123,7 +124,6 @@ body {
 
 .column-A > .additional-info {
     font-size: 24.1px;
-    width: 900px;
 }
 
 .column-A b {
@@ -161,12 +161,20 @@ body {
     font-weight: 900;
 }
 
+.column-B p {
+    margin-left: 15px;
+}
+
 .column-B b {
     color: #78DAFD;
 }
 
-.column-B img {
-    width: 100%;
+.column-B > #cutie-pie {
+    width: 300px;
+    margin: 25px 40px 20px 0px;
+    float: left;
+    border: 5px solid lightseagreen;
+    border-radius: 5px;
 }
 
         /* Footer */
@@ -174,7 +182,6 @@ body {
 .footer-wrap {
     background-color: #36383F;
     display: flex;
-    width: 2125px;
     height: 75px;
     
 }
@@ -185,13 +192,15 @@ body {
     border-top: #B3B3B3 solid 1px;
     border-right: #B3B3B3 solid 2px;
     border-bottom: #B3B3B3 solid 1px;
-    width: 528.61px;
+    width: 24.9%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-wrap > .section > .text {
     display: flex;
+    justify-content: space-around;
     align-items: baseline;
 }
 
