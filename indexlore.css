@@ -3,7 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     color:white;
     background-color: #3F434D;
-    box-shadow: inset -50px -200px 400px 200px rgba(0,0,0,0.75);
+    box-shadow: inset -100px -300px 300px 200px rgba(0,0,0,0.75);
+    margin: 0px;
 }
 
 
@@ -162,19 +163,19 @@ body {
 }
 
 .column-B p {
-    margin-left: 15px;
+margin: 0px;
+display: flex;
+justify-content: baseline;
 }
 
 .column-B b {
     color: #78DAFD;
+    margin-left: 4px;
 }
 
-.column-B > #cutie-pie {
-    width: 300px;
-    margin: 25px 40px 20px 0px;
-    float: left;
-    border: 5px solid lightseagreen;
-    border-radius: 5px;
+.column-B > #plz-help {
+    height: 700px;
+    padding-bottom: 0px;
 }
 
         /* Footer */
