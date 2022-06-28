@@ -100,16 +100,24 @@ body {
 
 
         /* body */
+
 .middle-wrap {
    display: flex;
    justify-content: space-between;
 }
+
 .column-A {
-    display:flex;
-    flex-direction: column;
+    color: #B3B3B3;
+}
+.column-A b {
+    color: white;
+    font-weight: 200;
 }
 
 
+.column-B b {
+    color: #78DAFD;
+}
 
         /* Footer */
 
