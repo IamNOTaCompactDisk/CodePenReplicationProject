@@ -48,7 +48,7 @@ body {
                 /* Left Side */
 
 .left-side-bar {
-    padding-left: 500px;
+    padding-left: 400px;
     width: 300px;
     display: flex;
     justify-content: space-between;
