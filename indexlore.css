@@ -37,7 +37,9 @@ body {
 }
 
 .right-side-bar > .explore {
-    color: #F4E180;
+    color: #f7e175;
+    font-size: 25px;
+    letter-spacing: -1px;
 }
 
 .right-side-bar {
@@ -47,8 +49,13 @@ body {
 .right-side-bar > .second-row {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 25px;
     font-weight:900;
+    letter-spacing: -1px;
+}
+
+.right-side-bar > .second-row > .word {
+    font-weight: 1000;
 }
 
                 /* Left Side */
@@ -94,7 +101,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 900;
+    font-weight: 1000;
     width: 200px;
     height: 81px;
     font-size: 2em;
@@ -131,18 +138,19 @@ body {
 }
 
 .column-A > .heading {
-    font-size: 27px;
+    font-size: 30px;
     text-align: left;
-    width: 1100px;
+    width: 1200px;
 }
 
 .column-A > .additional-info {
-    font-size: 25px;
+    font-size: 35px;
+    width: 1200px;
 }
 
 .column-A b {
     color: white;
-    font-weight: 900;
+    font-weight: 1000;
     font-size: 1.25em;
 }
 
@@ -155,7 +163,7 @@ body {
     justify-content: center;
     border-radius: 5px;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 1000;
     width: 500px
 }
 
@@ -173,10 +181,15 @@ body {
     background-color: black;
     color: white;
     border: black 5px solid;
-    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 1000;
+    width: 350px;
 }
+
+            /* Right Side */
 
 .column-B {
     /* why don't the indents stay? */
@@ -187,13 +200,15 @@ body {
 }
 
 .column-B p {
-    margin-block-end: 0em;
+    margin-block-end: 5px;
     margin-block-start: 3.5em;
+    margin-left: 15px;
 }
 
 .column-B b {
     color: #78DAFD;
     margin-left: 4px;
+    letter-spacing: 1px;
 }
 
 .column-B > #plz-help {
@@ -233,7 +248,7 @@ body {
 
 .footer-wrap > .section > .text > .giant-bolded-text {
     font-size: 1.5em;
-    font-weight: 900;
+    font-weight: 1000;
     letter-spacing: -2px;
     text-transform: uppercase;
     padding-left: 10px;
@@ -248,15 +263,9 @@ body {
             /* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
-    opacity: 0.2;
   }
   ::-webkit-scrollbar-thumb {
     background: #B3B3B3;
-    opacity: 0;
     border: 1px solid #B3B3B3;
     border-radius: 30px;
   }
-  ::-webkit-scrollbar-thumb:hover {
-    opacity: 1;
-    border-radius: 30px;
-  } 
